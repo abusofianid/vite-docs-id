@@ -120,7 +120,7 @@ export const advisors = [
   {
     avatar: 'https://github.com/serhalp.png',
     name: 'Philippe Serhal',
-    title: 'Pengembang Perangkat Lunak',
+    title: 'Insinyur Perangkat Lunak',
     org: 'Netlify',
     orgLink: 'https://www.netlify.com/',
     desc: 'Mengelola berbagai framework di Netlify',
@@ -132,7 +132,7 @@ export const advisors = [
   {
     avatar: 'https://github.com/jamesopstad.png',
     name: 'James Opstad',
-    title: 'Pengembang Senior',
+    title: 'Senior Insinyur Pengembang',
     org: 'Cloudflare',
     orgLink: 'https://www.cloudflare.com/',
     desc: 'Mengembangkan perkakas untuk developer di Cloudflare',
@@ -157,8 +157,8 @@ export const emeriti = [
   {
     avatar: 'https://i.imgur.com/KMed6rQ.jpeg',
     name: 'Alec Larson',
-    title: 'Entrepreneur',
-    desc: 'Dabbling in social ecommerce, meta frameworks, and board games',
+    title: 'Pengusaha',
+    desc: 'Menjelajahi dunia e-commerce sosial, meta-framework, dan permainan papan',
     links: [
       { icon: 'github', link: 'https://github.com/aleclarson' },
       { icon: 'x', link: 'https://x.com/retropragma' },
@@ -171,8 +171,8 @@ export const emeriti = [
   {
     avatar: 'https://github.com/poyoho.png',
     name: 'yoho',
-    title: 'Frontend Developer',
-    desc: 'Frontend. Vite team member.',
+    title: 'Pengembang Frontend',
+    desc: 'Pengembang Frontend. Anggota tim Vite.',
     links: [
       { icon: 'github', link: 'https://github.com/poyoho' },
       { icon: 'x', link: 'https://x.com/yoho_po' },
@@ -181,8 +181,8 @@ export const emeriti = [
   {
     avatar: 'https://github.com/ygj6.png',
     name: 'ygj6',
-    title: 'Developer',
-    desc: 'Web Developer. Vue & Vite team member',
+    title: 'Pengembang',
+    desc: 'Pengembang Web. Anggota tim Vue dan Vite',
     links: [
       { icon: 'github', link: 'https://github.com/ygj6' },
       { icon: 'x', link: 'https://x.com/ygj_66' },
@@ -191,9 +191,9 @@ export const emeriti = [
   {
     avatar: 'https://github.com/Niputi.png',
     name: 'Niputi',
-    title: 'Developer',
+    title: 'Pengembang',
     org: 'Computershare Denmark',
-    desc: 'weeb/JavaScript lover.',
+    desc: 'Pencinta weeb dan JavaScript.',
     links: [
       { icon: 'github', link: 'https://github.com/Niputi' },
       { icon: 'x', link: 'https://x.com/Niputi_' },
@@ -203,13 +203,13 @@ export const emeriti = [
   {
     avatar: 'https://github.com/underfin.png',
     name: 'underfin',
-    title: 'Developer',
+    title: 'Pengembang',
     links: [{ icon: 'github', link: 'https://github.com/underfin' }],
   },
   {
     avatar: 'https://github.com/GrygrFlzr.png',
     name: 'GrygrFlzr',
-    title: 'Developer',
+    title: 'Pengembang',
     links: [
       { icon: 'github', link: 'https://github.com/GrygrFlzr' },
       { icon: 'bluesky', link: 'https://bsky.app/profile/bsky.cybeast.dev' },
@@ -218,16 +218,16 @@ export const emeriti = [
   {
     avatar: 'https://github.com/nihalgonsalves.png',
     name: 'Nihal Gonsalves',
-    title: 'Senior Software Engineer',
+    title: 'Senior Insinyur Peramgkat Lunak',
     links: [{ icon: 'github', link: 'https://github.com/nihalgonsalves' }],
   },
   {
     avatar: 'https://github.com/Shinigami92.png',
     name: 'Shinigami',
-    title: 'Senior Frontend Engineer',
+    title: 'Senior Insinyur Frontend',
     org: 'Faker',
     orgLink: 'https://fakerjs.dev',
-    desc: 'Passionate TypeScript enthusiast working extensively with Vue SPA.',
+    desc: 'Penggemar berat TypeScript yang banyak berkecimpung dalam pengembangan SPA menggunakan Vue.',
     links: [
       { icon: 'github', link: 'https://github.com/Shinigami92' },
       { icon: 'mastodon', link: 'https://elk.zone/mas.to/@Shini92' },
@@ -236,10 +236,10 @@ export const emeriti = [
   {
     avatar: 'https://github.com/haoqunjiang.png',
     name: 'Haoqun Jiang',
-    title: 'Core Team Member',
+    title: 'Anggota Tim Inti',
     org: 'Vue.js',
     orgLink: 'https://vuejs.org/',
-    desc: 'Curator of best practices for Vue.js tooling',
+    desc: 'Kurator praktik terbaik dalam pengembangan perkakas Vue.js',
     links: [
       { icon: 'github', link: 'https://github.com/haoqunjiang' },
       { icon: 'bluesky', link: 'https://bsky.app/profile/haoqun.dev' },
@@ -250,8 +250,8 @@ export const emeriti = [
   {
     avatar: 'https://github.com/dominikg.png',
     name: 'Dominik G.',
-    title: 'Resident CI Expert',
-    desc: 'Team Member of Vite and Svelte',
+    title: 'Pakar CI Tim',
+    desc: 'Anggota tim Vite dan Svelte',
     links: [
       { icon: 'github', link: 'https://github.com/dominikg' },
       { icon: 'mastodon', link: 'https://elk.zone/m.webtoo.ls/@dominikg' },
