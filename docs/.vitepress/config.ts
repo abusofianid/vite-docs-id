@@ -15,7 +15,7 @@ import { buildEnd } from './buildEnd.config.ts'
 const viteVersion = packageJson.version
 const viteMajorVersion = +viteVersion.split('.')[0]
 
-const ogDescription = 'Next Generation Frontend Tooling'
+const ogDescription = 'Perkakas Frontend Generasi Berikutnya'
 const ogImage = 'https://vite.dev/og-image.jpg'
 const ogTitle = 'Vite'
 const ogUrl = 'https://vite.dev'
@@ -49,14 +49,14 @@ const versionLinks = (() => {
 
   if (deployType !== 'main') {
     links.push({
-      text: 'Unreleased Docs',
+      text: 'Dokumentasi Prarilis,
       link: 'https://main.vite.dev',
     })
   }
 
   if (deployType === 'main' || deployType === 'local') {
     links.push({
-      text: `Vite ${viteMajorVersion} Docs (release)`,
+      text: `Dokumentasi Vite ${viteMajorVersion} (rilis)`,
       link: 'https://vite.dev',
     })
   }
@@ -64,7 +64,7 @@ const versionLinks = (() => {
   // Create version links from v2 onwards
   for (let i = viteMajorVersion - 1; i >= 2; i--) {
     links.push({
-      text: `Vite ${i} Docs`,
+      text: `Dokumentasi Vite ${i}`,
       link: `https://v${i}.vite.dev`,
     })
   }
@@ -74,7 +74,7 @@ const versionLinks = (() => {
 
 const config = defineConfig({
   title: `Vite${additionalTitle}`,
-  description: 'Next Generation Frontend Tooling',
+  description: 'Perkakas Frontend Generasi Berikutnya',
   cleanUrls: true,
   sitemap: {
     hostname: 'https://vite.dev',
@@ -114,13 +114,13 @@ const config = defineConfig({
     variant: 'vite',
     banner: {
       id: 'viteconf-2026',
-      text: 'ViteConf 2026 - October 15, Online',
+      text: 'ViteConf 2026 - 15 Oktober, Daring',
       url: 'https://viteconf.org/',
     },
 
     editLink: {
       pattern: 'https://github.com/vitejs/vite/edit/main/docs/:path',
-      text: 'Suggest changes to this page',
+      text: 'Sarankan perubahan pada halaman ini',
     },
 
     socialLinks: [
@@ -153,29 +153,29 @@ const config = defineConfig({
     },
 
     footer: {
-      copyright: `© 2019-present VoidZero Inc. and Vite contributors. (${commitRef})`,
+      copyright: `© 2019–sekarang VoidZero Inc. dan para kontributor Vite. (${commitRef})`,
       nav: [
         {
           title: 'Vite',
           items: [
-            { text: 'Guide', link: '/guide/' },
-            { text: 'Config', link: '/config/' },
-            { text: 'Plugins', link: '/plugins/' },
+            { text: 'Panduan', link: '/guide/' },
+            { text: 'Konfigurasi', link: '/config/' },
+            { text: 'Plugin', link: '/plugins/' },
           ],
         },
         {
-          title: 'Resources',
+          title: 'Informasi',
           items: [
-            { text: 'Team', link: '/team' },
+            { text: 'Tim', link: '/team' },
             { text: 'Blog', link: '/blog' },
             {
-              text: 'Releases',
+              text: 'Rilis',
               link: 'https://github.com/vitejs/vite/releases',
             },
           ],
         },
         {
-          title: 'Versions',
+          title: 'Versi',
           items: versionLinks,
         },
       ],
@@ -188,26 +188,26 @@ const config = defineConfig({
     },
 
     nav: [
-      { text: 'Guide', link: '/guide/', activeMatch: '/guide/' },
-      { text: 'Config', link: '/config/', activeMatch: '/config/' },
-      { text: 'Plugins', link: '/plugins/', activeMatch: '/plugins/' },
+      { text: 'Panduan', link: '/guide/', activeMatch: '/guide/' },
+      { text: 'Konfigurasi', link: '/config/', activeMatch: '/config/' },
+      { text: 'Plugin', link: '/plugins/', activeMatch: '/plugins/' },
       {
-        text: 'Resources',
+        text: 'Informasi',
         items: [
-          { text: 'Team', link: '/team' },
+          { text: 'Tim', link: '/team' },
           { text: 'Blog', link: '/blog' },
-          { text: 'Releases', link: '/releases' },
-          { text: 'Acknowledgements', link: '/acknowledgements' },
+          { text: 'Rilis', link: '/releases' },
+          { text: 'Apresiasi', link: '/acknowledgements' },
           {
-            text: 'Code of Conduct',
+            text: 'Kode Etik',
             link: 'https://github.com/vitejs/.github/blob/main/CODE_OF_CONDUCT.md',
           },
           {
-            text: 'Plugin Registry',
+            text: 'Direktori Plugin',
             link: 'https://registry.vite.dev/plugins',
           },
           {
-            text: 'The Documentary',
+            text: 'Film Dokumenter',
             link: 'https://www.youtube.com/watch?v=bmWQqAKLgT4',
           },
           {
@@ -248,11 +248,11 @@ const config = defineConfig({
         text: `v${viteVersion}`,
         items: [
           {
-            text: 'Changelog',
+            text: 'Catatan Perubahan',
             link: 'https://github.com/vitejs/vite/blob/main/packages/vite/CHANGELOG.md',
           },
           {
-            text: 'Contributing',
+            text: 'Berkontribusi',
             link: 'https://github.com/vitejs/vite/blob/main/CONTRIBUTING.md',
           },
           {
@@ -265,27 +265,27 @@ const config = defineConfig({
     sidebar: {
       '/guide/': [
         {
-          text: 'Introduction',
+          text: 'Pengantar',
           items: [
             {
-              text: 'Getting Started',
+              text: 'Langkah Awal',
               link: '/guide/',
             },
             {
-              text: 'Philosophy',
+              text: 'Filosofi',
               link: '/guide/philosophy',
             },
             {
-              text: 'Why Vite',
+              text: 'Mengapa Vite',
               link: '/guide/why',
             },
           ],
         },
         {
-          text: 'Guide',
+          text: 'Panduan',
           items: [
             {
-              text: 'Features',
+              text: 'Fitur',
               link: '/guide/features',
             },
             {
@@ -293,27 +293,27 @@ const config = defineConfig({
               link: '/guide/cli',
             },
             {
-              text: 'Using Plugins',
+              text: 'Menggunakan Plugin',
               link: '/guide/using-plugins',
             },
             {
-              text: 'Dependency Pre-Bundling',
+              text: 'Pra-Bundling Dependensi',
               link: '/guide/dep-pre-bundling',
             },
             {
-              text: 'Static Asset Handling',
+              text: 'Penanganan Aset Statis',
               link: '/guide/assets',
             },
             {
-              text: 'Building for Production',
+              text: 'Build untuk Produksi',
               link: '/guide/build',
             },
             {
-              text: 'Deploying a Static Site',
+              text: 'Deployment Situs Statis',
               link: '/guide/static-deploy',
             },
             {
-              text: 'Env Variables and Modes',
+              text: 'Variabel Lingkungan dan Mode',
               link: '/guide/env-and-mode',
             },
             {
@@ -321,29 +321,29 @@ const config = defineConfig({
               link: '/guide/ssr',
             },
             {
-              text: 'Backend Integration',
+              text: 'Integrasi Backend',
               link: '/guide/backend-integration',
             },
             {
-              text: 'Troubleshooting',
+              text: 'Pemecahan Masalah',
               link: '/guide/troubleshooting',
             },
             {
-              text: 'Performance',
+              text: 'Performa',
               link: '/guide/performance',
             },
             {
-              text: `Migration from v${viteMajorVersion - 1}`,
+              text: `Migrasi dari v${viteMajorVersion - 1}`,
               link: '/guide/migration',
             },
             {
-              text: 'Breaking Changes',
+              text: 'Perubahan yang Tidak Kompatibel',
               link: '/changes/',
             },
           ],
         },
         {
-          text: 'APIs',
+          text: 'API',
           items: [
             {
               text: 'Plugin API',
@@ -358,32 +358,32 @@ const config = defineConfig({
               link: '/guide/api-javascript',
             },
             {
-              text: 'Config Reference',
+              text: 'Referensi Konfigurasi',
               link: '/config/',
             },
           ],
         },
         {
-          text: 'Environment API',
+          text: 'API Lingkungan',
           items: [
             {
-              text: 'Introduction',
+              text: 'Pengantar',
               link: '/guide/api-environment',
             },
             {
-              text: 'Environment Instances',
+              text: 'Instans Lingkungan',
               link: '/guide/api-environment-instances',
             },
             {
-              text: 'Plugins',
+              text: 'Plugin',
               link: '/guide/api-environment-plugins',
             },
             {
-              text: 'Frameworks',
+              text: 'Framework',
               link: '/guide/api-environment-frameworks',
             },
             {
-              text: 'Runtimes',
+              text: 'Runtime',
               link: '/guide/api-environment-runtimes',
             },
           ],
@@ -391,38 +391,38 @@ const config = defineConfig({
       ],
       '/config/': [
         {
-          text: 'Config',
+          text: 'Konfigurasi',
           items: [
             {
-              text: 'Configuring Vite',
+              text: 'Konfigurasi Vite',
               link: '/config/',
             },
             {
-              text: 'Shared Options',
+              text: 'Opsi Bersama',
               link: '/config/shared-options',
             },
             {
-              text: 'Server Options',
+              text: 'Opsi Server',
               link: '/config/server-options',
             },
             {
-              text: 'Build Options',
+              text: 'Opsi Build',
               link: '/config/build-options',
             },
             {
-              text: 'Preview Options',
+              text: 'Opsi Pratinjau',
               link: '/config/preview-options',
             },
             {
-              text: 'Dep Optimization Options',
+              text: 'Opsi Optimasi Dependensi',
               link: '/config/dep-optimization-options',
             },
             {
-              text: 'SSR Options',
+              text: 'Opsi SSR',
               link: '/config/ssr-options',
             },
             {
-              text: 'Worker Options',
+              text: 'Opsi Worker',
               link: '/config/worker-options',
             },
           ],
@@ -430,40 +430,40 @@ const config = defineConfig({
       ],
       '/changes/': [
         {
-          text: 'Breaking Changes',
+          text: 'Perubahan yang Tidak Kompatibel',
           link: '/changes/',
         },
         {
-          text: 'Current',
+          text: 'Terkini',
           items: [],
         },
         {
-          text: 'Future',
+          text: 'Mendatang',
           items: [
             {
-              text: 'this.environment in Hooks',
+              text: 'this.environment dalam Hooks',
               link: '/changes/this-environment-in-hooks',
             },
             {
-              text: 'HMR hotUpdate Plugin Hook',
+              text: 'Plugin Hook hotUpdate untuk HMR',
               link: '/changes/hotupdate-hook',
             },
             {
-              text: 'Move to Per-environment APIs',
+              text: 'Beralih ke API Per-Lingkungan',
               link: '/changes/per-environment-apis',
             },
             {
-              text: 'SSR Using ModuleRunner API',
+              text: 'SSR Menggunakan ModuleRunner API',
               link: '/changes/ssr-using-modulerunner',
             },
             {
-              text: 'Shared Plugins During Build',
+              text: 'Plugin Bersama Selama Proses Build',
               link: '/changes/shared-plugins-during-build',
             },
           ],
         },
         {
-          text: 'Past',
+          text: 'Sebelumnya',
           items: [],
         },
       ],
@@ -552,22 +552,22 @@ const config = defineConfig({
       }),
       llmstxt({
         ignoreFiles: ['blog/*', 'blog.md', 'index.md', 'team.md'],
-        description: 'The Build Tool for the Web',
+        description: 'Perkakas untuk Membangun Aplikasi Web',
         details: `\
-- 💡 Instant Server Start
-- ⚡️ Lightning Fast HMR
-- 🛠️ Rich Features
-- 📦 Optimized Build
-- 🔩 Universal Plugin Interface
-- 🔑 Fully Typed APIs
+- 💡 Memulai Server Secara Instan
+- ⚡️ HMR Super Cepat
+- 🛠️ Fitur Lengkap
+- 📦 Proses Build yang Dioptimalkan
+- 🔩 Antarmuka Plugin Universal
+- 🔑 API dengan Tipe yang Terdefinisi Sepenuhnya
 
-Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects. It consists of two major parts:
+Vite adalah perkakas build yang bertujuan memberikan pengalaman pengembangan yang lebih cepat dan efisien untuk proyek web modern. Vite terdiri dari dua bagian utama:
 
-- A dev server that provides [rich feature enhancements](https://vite.dev/guide/features.md) over [native ES modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules), for example extremely fast [Hot Module Replacement (HMR)](https://vite.dev/guide/features.md#hot-module-replacement).
+- Server pengembangan yang menyediakan [peningkatan fitur yang lengkap](https://vite.dev/guide/features.md) di atas [modul ES native](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules), misalnya [Hot Module Replacement (HMR)](https://vite.dev/guide/features.md#hot-module-replacement) yang sangat cepat.
 
-- A build command that bundles your code with [Rolldown](https://rolldown.rs), pre-configured to output highly optimized static assets for production.
+- Perintah build yang menggabungkan kode Anda menggunakan [Rolldown](https://rolldown.rs), yang dikonfigurasi sebelumnya untuk menghasilkan aset statis yang sangat optimal untuk lingkungan produksi.
 
-In addition, Vite is highly extensible via its [Plugin API](https://vite.dev/guide/api-plugin.md) and [JavaScript API](https://vite.dev/guide/api-javascript.md) with full typing support.`,
+Selain itu, Vite sangat mudah diperluas melalui [Plugin API](https://vite.dev/guide/api-plugin.md) and [JavaScript API](https://vite.dev/guide/api-javascript.md) with full typing support.`,
       }),
     ],
     optimizeDeps: {
