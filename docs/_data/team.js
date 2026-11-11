@@ -2,10 +2,10 @@ export const core = [
   {
     avatar: 'https://www.github.com/yyx990803.png',
     name: 'Evan You',
-    title: 'Creator',
+    title: 'Pendiri',
     org: 'Vue.js',
     orgLink: 'https://vuejs.org/',
-    desc: 'Creator of Vue.js and Vite.',
+    desc: 'Pendiri dari Vue.js dan Vite.',
     links: [
       { icon: 'github', link: 'https://github.com/yyx990803' },
       { icon: 'x', link: 'https://x.com/evanyou' },
@@ -16,10 +16,10 @@ export const core = [
   {
     avatar: 'https://github.com/sapphi-red.png',
     name: 'sapphi-red',
-    title: 'Web Developer',
+    title: 'Pengembang Web',
     org: 'VoidZero',
     orgLink: 'https://voidzero.dev/',
-    desc: 'Vite core team member. Call me sapphi or midori ;)',
+    desc: 'Anggota tim inti Vite. Panggil saya Sapphi atau Midori ;)',
     links: [
       { icon: 'github', link: 'https://github.com/sapphi-red' },
       { icon: 'bluesky', link: 'https://bsky.app/profile/sapphi.red' },
@@ -31,8 +31,8 @@ export const core = [
   {
     avatar: 'https://www.github.com/patak-cat.png',
     name: 'Patak',
-    title: 'Open Source Adventurer',
-    desc: 'Core team Vite, Vitest, Elk. Steward npmx.',
+    title: 'Petualang Open Source',
+    desc: 'Anggota tim inti Vite, Vitest, dan Elk. Pengelola npmx.',
     links: [
       { icon: 'github', link: 'https://github.com/patak-cat' },
       { icon: 'bluesky', link: 'https://bsky.app/profile/patak.cat' },
@@ -42,10 +42,10 @@ export const core = [
   {
     avatar: 'https://www.github.com/antfu.png',
     name: 'Anthony Fu',
-    title: 'A fanatical open sourceror',
+    title: 'Penggiat Open Source yang Fanatik',
     org: 'Vercel',
     orgLink: 'https://vercel.com/',
-    desc: 'Core team member of Vite & Vue. Working on Nuxt.',
+    desc: 'Anggota tim inti Vite dan Vue. Berkontribusi dalam pengembangan Nuxt.',
     links: [
       { icon: 'github', link: 'https://github.com/antfu' },
       { icon: 'bluesky', link: 'https://bsky.app/profile/antfu.me' },
@@ -56,8 +56,8 @@ export const core = [
   {
     avatar: 'https://github.com/bluwy.png',
     name: 'Bjorn Lu',
-    title: 'Open Source Developer',
-    desc: 'Building tools for fun.',
+    title: 'Pengembang Open Source',
+    desc: 'Membangun perkakas untuk bersenang-senang.',
     links: [
       { icon: 'github', link: 'https://github.com/bluwy' },
       { icon: 'bluesky', link: 'https://bsky.app/profile/bluwy.me' },
@@ -69,8 +69,8 @@ export const core = [
   {
     avatar: 'https://github.com/ArnaudBarre.png',
     name: 'Arnaud Barré',
-    title: 'Frontend Developer',
-    desc: 'Passionate about tooling around TypeScript and React.',
+    title: 'Pengembang Frontend',
+    desc: 'Antusias mengembangkan perkakas untuk TypeScript dan React.',
     links: [
       { icon: 'github', link: 'https://github.com/ArnaudBarre' },
       {
@@ -84,7 +84,7 @@ export const core = [
   {
     avatar: 'https://github.com/sheremet-va.png',
     name: 'Vladimir',
-    title: 'Core team member of Vitest & Vite',
+    title: 'Anggota tim inti Vitest dan Vite',
     org: 'VoidZero',
     orgLink: 'https://voidzero.dev/',
     desc: 'An open source fullstack developer',
@@ -98,10 +98,10 @@ export const core = [
   {
     avatar: 'https://github.com/hi-ogawa.png',
     name: 'Hiroshi Ogawa',
-    title: 'Team Member of Vitest & Vite',
+    title: 'Anggota tim Vitest dan Vite',
     org: 'VoidZero',
     orgLink: 'https://voidzero.dev/',
-    desc: 'Open source enthusiast',
+    desc: 'Penggemar Open Source',
     links: [
       { icon: 'github', link: 'https://github.com/hi-ogawa' },
       { icon: 'bluesky', link: 'https://bsky.app/profile/hiogawa.bsky.social' },
@@ -111,7 +111,7 @@ export const core = [
   {
     avatar: 'https://github.com/btea.png',
     name: 'btea',
-    title: 'Web Developer',
+    title: 'Pengembang Web',
     links: [{ icon: 'github', link: 'https://github.com/btea' }],
   },
 ]
@@ -120,10 +120,10 @@ export const advisors = [
   {
     avatar: 'https://github.com/serhalp.png',
     name: 'Philippe Serhal',
-    title: 'Staff Software Engineer',
+    title: 'Pengembang Perangkat Lunak',
     org: 'Netlify',
     orgLink: 'https://www.netlify.com/',
-    desc: 'Juggling all the frameworks at Netlify',
+    desc: 'Mengelola berbagai framework di Netlify',
     links: [
       { icon: 'github', link: 'https://github.com/serhalp' },
       { icon: 'bluesky', link: 'https://bsky.app/profile/philippeserhal.com' },
@@ -132,19 +132,19 @@ export const advisors = [
   {
     avatar: 'https://github.com/jamesopstad.png',
     name: 'James Opstad',
-    title: 'Senior Engineer',
+    title: 'Pengembang Senior',
     org: 'Cloudflare',
     orgLink: 'https://www.cloudflare.com/',
-    desc: 'Building developer tools at Cloudflare',
+    desc: 'Mengembangkan perkakas untuk developer di Cloudflare',
     links: [{ icon: 'github', link: 'https://github.com/jamesopstad' }],
   },
   {
     avatar: 'https://github.com/danielroe.png',
     name: 'Daniel Roe',
-    title: 'Open Source Maintainer',
+    title: 'Pengelola Open Source',
     org: 'Vercel',
     orgLink: 'https://vercel.com/',
-    desc: 'Leading the Nuxt team',
+    desc: 'Memimpin tim Nuxt',
     links: [
       { icon: 'github', link: 'https://github.com/danielroe' },
       { icon: 'bluesky', link: 'https://bsky.app/profile/danielroe.dev' },
