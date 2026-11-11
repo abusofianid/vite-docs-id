@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Meet the Team
-description: The development of Vite is guided by an international team.
+title: Berkenalan dengan Tim
+description: Pengembangan Vite dipandu oleh tim internasional.
 ---
 
 <script setup>
@@ -16,28 +16,28 @@ import { core, advisors, emeriti } from './_data/team'
 
 <VPTeamPage>
   <VPTeamPageTitle>
-    <template #title>Meet the Team</template>
+    <template #title>Berkenalan dengan Tim</template>
     <template #lead>
-      The development of Vite is guided by an international team, some of whom
-      have chosen to be featured below.
+      Pengembangan Vite dipandu oleh tim internasional, beberapa di antaranya
+      memilih untuk ditampilkan di bawah ini.
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers :members="core" />
   <VPTeamPageSection>
-    <template #title>Advisors</template>
+    <template #title>Penasihat</template>
     <template #lead>
-      Advisors help guide Vite from the ecosystem side, sharing their
-      experience to shape the Environment API and the design of future APIs.
+      Para penasihat turut mengarahkan pengembangan Vite dari sisi ekosistem dengan berbagi
+      pengalaman mereka untuk membentuk Environment API dan merancang API di masa mendatang.
     </template>
     <template #members>
       <VPTeamMembers size="small" :members="advisors" />
     </template>
   </VPTeamPageSection>
   <VPTeamPageSection>
-    <template #title>Team Emeriti</template>
+    <template #title>Tim Emeriti</template>
     <template #lead>
-      Here we honor some no-longer-active team members who have made valuable
-      contributions in the past.
+      Di sini, kami memberikan penghormatan kepada beberapa mantan anggota tim yang sudah tidak aktif, tetapi telah memberikan kontribusi berharga
+      Di masa lalu.
     </template>
     <template #members>
       <VPTeamMembers size="small" :members="emeriti" />
