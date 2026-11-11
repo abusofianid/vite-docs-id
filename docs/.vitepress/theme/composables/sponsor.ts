@@ -20,22 +20,22 @@ export function useSponsor() {
 
     data.value = [
       {
-        tier: 'Brought to you by',
+        tier: 'Dipersembahkan oleh',
         size: 'big',
         items: sponsors.main,
       },
       {
-        tier: 'In partnership with',
+        tier: 'Bekerja Sama dengan',
         size: 'big',
         items: sponsors.partnership,
       },
       {
-        tier: 'Platinum Sponsors',
+        tier: 'Sponsor Platinum',
         size: 'big',
         items: sponsors.platinum,
       },
       {
-        tier: 'Gold Sponsors',
+        tier: 'Sponsor Emas',
         size: 'medium',
         items: sponsors.gold,
       },
