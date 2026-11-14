@@ -1,6 +1,6 @@
 ---
-title: Acknowledgements
-description: Vite is built upon the shoulders of giants. Thank you to all the projects and contributors that make Vite possible.
+title: Apresiasi
+description: Vite dibangun berkat kontribusi dari berbagai proyek dan individu hebat. Terima kasih kepada seluruh proyek dan kontributor yang telah memungkinkan terwujudnya Vite.
 ---
 
 <script setup>
@@ -16,29 +16,29 @@ function npmUrl(name) {
 }
 </script>
 
-# Acknowledgements
+# Apresiasi
 
-Vite is built upon the shoulders of giants. We would like to express our gratitude to all the projects, contributors, and sponsors that make Vite possible.
+Vite dibangun berkat kontribusi dari berbagai proyek dan individu hebat. Terima kasih kepada seluruh proyek dan kontributor yang telah memungkinkan terwujudnya Vite.
 
-## Contributors
+## Kontributor
 
-Vite is developed by an international team of contributors. See the [Team page](/team) to meet the core team members.
+Vite dikembangkan oleh tim kontributor dari berbagai negara. Lihat [halaman Tim](/team) untuk mengenal para anggota tim inti.
 
-We also thank all the [contributors on GitHub](https://github.com/vitejs/vite/graphs/contributors) who have helped improve Vite through code contributions, bug reports, documentation, and documentation translation.
+Kami juga mengucapkan terima kasih kepada seluruh [kontributor di GitHub](https://github.com/vitejs/vite/graphs/contributors) yang telah membantu meningkatkan kualitas Vite melalui kontribusi kode, laporan bug, dokumentasi, dan penerjemahan dokumentasi.
 
-## Sponsors
+## Sponsor
 
-Vite's development is supported by generous sponsors. You can support Vite through [GitHub Sponsors](https://github.com/sponsors/vitejs) or [Open Collective](https://opencollective.com/vite).
+Pengembangan Vite didukung oleh para sponsor yang dermawan. Anda juga dapat mendukung Vite melalui [GitHub Sponsors](https://github.com/sponsors/vitejs) atau [Open Collective](https://opencollective.com/vite).
 
 <div class="sponsors-container">
   <VPSponsors :data="sponsors ?? []" />
 </div>
 
-## Dependencies
+## Dependensi
 
-Vite depends on these amazing open source projects:
+Vite bergantung pada proyek-proyek sumber terbuka luar biasa berikut:
 
-### Notable Dependencies
+### Dependensi Utama
 
 <div class="deps-list notable">
   <div v-for="dep in data.notableDependencies" :key="dep.name" class="dep-item">
@@ -56,7 +56,7 @@ Vite depends on these amazing open source projects:
   </div>
 </div>
 
-### Bundled Dependency Authors
+### Pengembang Dependensi yang Dibundel
 
 <table class="authors-table">
   <thead>
@@ -85,9 +85,9 @@ Vite depends on these amazing open source projects:
 This section is automatically generated from the `author` and `funding` fields in each package's `package.json`. If you'd like to update how your package appears here, you can update these fields in your package.
 :::
 
-## Development Tools
+## Alat Pengembangan
 
-Vite's development workflow is powered by these tools:
+Alur kerja pengembangan Vite didukung oleh alat-alat berikut:
 
 <div class="deps-list notable">
   <div v-for="dep in data.devTools" :key="dep.name" class="dep-item">
@@ -105,9 +105,9 @@ Vite's development workflow is powered by these tools:
   </div>
 </div>
 
-## Past Notable Dependencies
+## Dependensi Penting Sebelumnya
 
-We also thank the maintainers of these projects that Vite used in previous versions:
+Kami juga berterima kasih kepada para pengelola proyek-proyek berikut yang pernah digunakan oleh Vite pada versi sebelumnya:
 
 <table>
   <thead>
