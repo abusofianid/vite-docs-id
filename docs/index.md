@@ -1,6 +1,6 @@
 ---
 title: Vite
-titleTemplate: Next Generation Frontend Tooling
+titleTemplate: Perkakas Frontend Generasi Berikutnya
 layout: home
 theme: dark
 ---
